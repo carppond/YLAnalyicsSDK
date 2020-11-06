@@ -23,6 +23,8 @@
 		5F4417552542CCFA00E27A22 /* WKWebView+Analytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4417532542CCFA00E27A22 /* WKWebView+Analytics.m */; };
 		5F4417592542E86200E27A22 /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4417572542E86200E27A22 /* Aspects.h */; };
 		5F44175A2542E86200E27A22 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4417582542E86200E27A22 /* Aspects.m */; };
+		5F5BEA6C25554C27001CC6F1 /* YLAppFluencyMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F5BEA6A25554C27001CC6F1 /* YLAppFluencyMonitor.h */; };
+		5F5BEA6D25554C27001CC6F1 /* YLAppFluencyMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5BEA6B25554C27001CC6F1 /* YLAppFluencyMonitor.m */; };
 		5F94DC3F2539747500860A82 /* KHAnalyticsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F94DC3D2539747500860A82 /* KHAnalyticsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F94DC97253977B600860A82 /* KHSensorsAnalyicsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F94DC95253977B600860A82 /* KHSensorsAnalyicsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F94DC98253977B600860A82 /* KHSensorsAnalyicsSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F94DC96253977B600860A82 /* KHSensorsAnalyicsSDK.m */; };
@@ -80,6 +82,8 @@
 		5F4417532542CCFA00E27A22 /* WKWebView+Analytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+Analytics.m"; sourceTree = "<group>"; };
 		5F4417572542E86200E27A22 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
 		5F4417582542E86200E27A22 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		5F5BEA6A25554C27001CC6F1 /* YLAppFluencyMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAppFluencyMonitor.h; sourceTree = "<group>"; };
+		5F5BEA6B25554C27001CC6F1 /* YLAppFluencyMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAppFluencyMonitor.m; sourceTree = "<group>"; };
 		5F94DC3A2539747500860A82 /* KHAnalyticsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KHAnalyticsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F94DC3D2539747500860A82 /* KHAnalyticsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHAnalyticsSDK.h; sourceTree = "<group>"; };
 		5F94DC3E2539747500860A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -150,6 +154,15 @@
 				5FEE1A372541966F0044B566 /* KHAnalyicsConstants.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		5F5BEA6925554BF4001CC6F1 /* Fluency */ = {
+			isa = PBXGroup;
+			children = (
+				5F5BEA6A25554C27001CC6F1 /* YLAppFluencyMonitor.h */,
+				5F5BEA6B25554C27001CC6F1 /* YLAppFluencyMonitor.m */,
+			);
+			path = Fluency;
 			sourceTree = "<group>";
 		};
 		5F94DC302539747500860A82 = {
@@ -228,6 +241,7 @@
 				5FFF55D725527CA400AC2C16 /* UI */,
 				5FFF55C22552763C00AC2C16 /* Log */,
 				5FFF55C12552762E00AC2C16 /* Crash */,
+				5F5BEA6925554BF4001CC6F1 /* Fluency */,
 			);
 			path = AppMonitor;
 			sourceTree = "<group>";
@@ -309,6 +323,7 @@
 				5FEE1A1A254162F40044B566 /* KHSystemParam.h in Headers */,
 				5F4417542542CCFA00E27A22 /* WKWebView+Analytics.h in Headers */,
 				5FEE1A33254195190044B566 /* KHSensorsAnalyicsCommonTool.h in Headers */,
+				5F5BEA6C25554C27001CC6F1 /* YLAppFluencyMonitor.h in Headers */,
 				5FEE1A21254176630044B566 /* KHReachability.h in Headers */,
 				5F94DC3F2539747500860A82 /* KHAnalyticsSDK.h in Headers */,
 				5F15A1C6253D891E00E16FE6 /* UICollectionView+Analyics.h in Headers */,
@@ -399,6 +414,7 @@
 				5FFF55BE25523B7300AC2C16 /* YLDispatchOperation.m in Sources */,
 				5FFF55DB25527D0700AC2C16 /* UIApplication+YLTool.m in Sources */,
 				5F44175A2542E86200E27A22 /* Aspects.m in Sources */,
+				5F5BEA6D25554C27001CC6F1 /* YLAppFluencyMonitor.m in Sources */,
 				5F94DCA32539973400860A82 /* NSObject+KHSwizzler.m in Sources */,
 				5FFF55BF25523B7300AC2C16 /* YLDispatchAsync.m in Sources */,
 				5F15A1B5253D385600E16FE6 /* UIView+Analyics.m in Sources */,
