@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F125D31253EC05700EBD269 /* KHSensorsAnalyticsKeychainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F125D2F253EC05700EBD269 /* KHSensorsAnalyticsKeychainTool.h */; };
+		5F125D32253EC05700EBD269 /* KHSensorsAnalyticsKeychainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F125D30253EC05700EBD269 /* KHSensorsAnalyticsKeychainTool.m */; };
+		5F125D3D253EF3BD00EBD269 /* KHSensorsAnalyticsNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F125D3B253EF3BD00EBD269 /* KHSensorsAnalyticsNetwork.h */; };
+		5F125D3E253EF3BD00EBD269 /* KHSensorsAnalyticsNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F125D3C253EF3BD00EBD269 /* KHSensorsAnalyticsNetwork.m */; };
+		5F15A1AF253D33A100E16FE6 /* UIApplication+Analyics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F15A1AD253D33A100E16FE6 /* UIApplication+Analyics.h */; };
+		5F15A1B0253D33A100E16FE6 /* UIApplication+Analyics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F15A1AE253D33A100E16FE6 /* UIApplication+Analyics.m */; };
+		5F15A1B4253D385600E16FE6 /* UIView+Analyics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F15A1B2253D385600E16FE6 /* UIView+Analyics.h */; };
+		5F15A1B5253D385600E16FE6 /* UIView+Analyics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F15A1B3253D385600E16FE6 /* UIView+Analyics.m */; };
+		5F15A1BF253D7B2900E16FE6 /* UITableView+Analyics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F15A1BD253D7B2900E16FE6 /* UITableView+Analyics.h */; };
+		5F15A1C0253D7B2900E16FE6 /* UITableView+Analyics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F15A1BE253D7B2900E16FE6 /* UITableView+Analyics.m */; };
+		5F15A1C6253D891E00E16FE6 /* UICollectionView+Analyics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F15A1C4253D891E00E16FE6 /* UICollectionView+Analyics.h */; };
+		5F15A1C7253D891E00E16FE6 /* UICollectionView+Analyics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F15A1C5253D891E00E16FE6 /* UICollectionView+Analyics.m */; };
+		5F4417542542CCFA00E27A22 /* WKWebView+Analytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4417522542CCFA00E27A22 /* WKWebView+Analytics.h */; };
+		5F4417552542CCFA00E27A22 /* WKWebView+Analytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4417532542CCFA00E27A22 /* WKWebView+Analytics.m */; };
+		5F4417592542E86200E27A22 /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4417572542E86200E27A22 /* Aspects.h */; };
+		5F44175A2542E86200E27A22 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4417582542E86200E27A22 /* Aspects.m */; };
+		5F94DC3F2539747500860A82 /* KHAnalyticsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F94DC3D2539747500860A82 /* KHAnalyticsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F94DC97253977B600860A82 /* KHSensorsAnalyicsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F94DC95253977B600860A82 /* KHSensorsAnalyicsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F94DC98253977B600860A82 /* KHSensorsAnalyicsSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F94DC96253977B600860A82 /* KHSensorsAnalyicsSDK.m */; };
+		5F94DCA22539973400860A82 /* NSObject+KHSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F94DCA02539973400860A82 /* NSObject+KHSwizzler.h */; };
+		5F94DCA32539973400860A82 /* NSObject+KHSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F94DCA12539973400860A82 /* NSObject+KHSwizzler.m */; };
+		5F94DCA825399BED00860A82 /* UIViewController+Analyics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F94DCA625399BED00860A82 /* UIViewController+Analyics.h */; };
+		5F94DCA925399BED00860A82 /* UIViewController+Analyics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F94DCA725399BED00860A82 /* UIViewController+Analyics.m */; };
+		5F94DCAD25399FBF00860A82 /* KHAnalycisBlackList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F94DCAC25399FBF00860A82 /* KHAnalycisBlackList.plist */; };
+		5F9CB8D3253D9F8C0073059F /* UIGestureRecognizer+Analyics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9CB8D1253D9F8C0073059F /* UIGestureRecognizer+Analyics.h */; };
+		5F9CB8D4253D9F8C0073059F /* UIGestureRecognizer+Analyics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CB8D2253D9F8C0073059F /* UIGestureRecognizer+Analyics.m */; };
+		5FEE1A1A254162F40044B566 /* KHSystemParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEE1A18254162F40044B566 /* KHSystemParam.h */; };
+		5FEE1A1B254162F40044B566 /* KHSystemParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEE1A19254162F40044B566 /* KHSystemParam.m */; };
+		5FEE1A20254176630044B566 /* KHReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEE1A1E254176630044B566 /* KHReachability.m */; };
+		5FEE1A21254176630044B566 /* KHReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEE1A1F254176630044B566 /* KHReachability.h */; };
+		5FEE1A252541778A0044B566 /* KHAnalyicsLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEE1A242541778A0044B566 /* KHAnalyicsLog.h */; };
+		5FEE1A2E25418A570044B566 /* KHSensorsAnalyicsTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEE1A2C25418A570044B566 /* KHSensorsAnalyicsTool.h */; };
+		5FEE1A2F25418A570044B566 /* KHSensorsAnalyicsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEE1A2D25418A570044B566 /* KHSensorsAnalyicsTool.m */; };
+		5FEE1A33254195190044B566 /* KHSensorsAnalyicsCommonTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEE1A31254195190044B566 /* KHSensorsAnalyicsCommonTool.h */; };
+		5FEE1A34254195190044B566 /* KHSensorsAnalyicsCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEE1A32254195190044B566 /* KHSensorsAnalyicsCommonTool.m */; };
+		5FEE1A382541966F0044B566 /* KHAnalyicsConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEE1A362541966F0044B566 /* KHAnalyicsConstants.h */; };
+		5FEE1A392541966F0044B566 /* KHAnalyicsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEE1A372541966F0044B566 /* KHAnalyicsConstants.m */; };
+		5FEE1A3C25427D020044B566 /* KHAnalyicsTrackProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEE1A3B25427D020044B566 /* KHAnalyicsTrackProperty.h */; };
+		5FFF55B3255146C100AC2C16 /* YLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FFF55B1255146C100AC2C16 /* YLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FFF55B4255146C100AC2C16 /* YLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF55B2255146C100AC2C16 /* YLLogger.m */; };
+		5FFF55BC25523B7300AC2C16 /* YLDispatchAsync.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FFF55B825523B7300AC2C16 /* YLDispatchAsync.h */; };
+		5FFF55BD25523B7300AC2C16 /* YLDispatchOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FFF55B925523B7300AC2C16 /* YLDispatchOperation.h */; };
+		5FFF55BE25523B7300AC2C16 /* YLDispatchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF55BA25523B7300AC2C16 /* YLDispatchOperation.m */; };
+		5FFF55BF25523B7300AC2C16 /* YLDispatchAsync.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF55BB25523B7300AC2C16 /* YLDispatchAsync.m */; };
+		5FFF55C52552765900AC2C16 /* YLCrashMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FFF55C32552765900AC2C16 /* YLCrashMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FFF55C62552765900AC2C16 /* YLCrashMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF55C42552765900AC2C16 /* YLCrashMonitor.m */; };
+		5FFF55CE255277D500AC2C16 /* YLJsonConverTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FFF55CC255277D500AC2C16 /* YLJsonConverTool.h */; };
+		5FFF55CF255277D500AC2C16 /* YLJsonConverTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF55CD255277D500AC2C16 /* YLJsonConverTool.m */; };
+		5FFF55D425527A6800AC2C16 /* YLBacktraceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FFF55D225527A6800AC2C16 /* YLBacktraceLogger.h */; };
+		5FFF55D525527A6800AC2C16 /* YLBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF55D325527A6800AC2C16 /* YLBacktraceLogger.m */; };
+		5FFF55DA25527D0700AC2C16 /* UIApplication+YLTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FFF55D825527D0700AC2C16 /* UIApplication+YLTool.h */; };
+		5FFF55DB25527D0700AC2C16 /* UIApplication+YLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF55D925527D0700AC2C16 /* UIApplication+YLTool.m */; };
+		5FFF55E025527D8500AC2C16 /* UIView+YLTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FFF55DE25527D8500AC2C16 /* UIView+YLTool.h */; };
+		5FFF55E125527D8500AC2C16 /* UIView+YLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF55DF25527D8500AC2C16 /* UIView+YLTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F125D2F253EC05700EBD269 /* KHSensorsAnalyticsKeychainTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHSensorsAnalyticsKeychainTool.h; sourceTree = "<group>"; };
+		5F125D30253EC05700EBD269 /* KHSensorsAnalyticsKeychainTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHSensorsAnalyticsKeychainTool.m; sourceTree = "<group>"; };
+		5F125D3B253EF3BD00EBD269 /* KHSensorsAnalyticsNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHSensorsAnalyticsNetwork.h; sourceTree = "<group>"; };
+		5F125D3C253EF3BD00EBD269 /* KHSensorsAnalyticsNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHSensorsAnalyticsNetwork.m; sourceTree = "<group>"; };
+		5F15A1AD253D33A100E16FE6 /* UIApplication+Analyics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Analyics.h"; sourceTree = "<group>"; };
+		5F15A1AE253D33A100E16FE6 /* UIApplication+Analyics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Analyics.m"; sourceTree = "<group>"; };
+		5F15A1B2253D385600E16FE6 /* UIView+Analyics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Analyics.h"; sourceTree = "<group>"; };
+		5F15A1B3253D385600E16FE6 /* UIView+Analyics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Analyics.m"; sourceTree = "<group>"; };
+		5F15A1BD253D7B2900E16FE6 /* UITableView+Analyics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+Analyics.h"; sourceTree = "<group>"; };
+		5F15A1BE253D7B2900E16FE6 /* UITableView+Analyics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Analyics.m"; sourceTree = "<group>"; };
+		5F15A1C4253D891E00E16FE6 /* UICollectionView+Analyics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Analyics.h"; sourceTree = "<group>"; };
+		5F15A1C5253D891E00E16FE6 /* UICollectionView+Analyics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Analyics.m"; sourceTree = "<group>"; };
+		5F4417522542CCFA00E27A22 /* WKWebView+Analytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView+Analytics.h"; sourceTree = "<group>"; };
+		5F4417532542CCFA00E27A22 /* WKWebView+Analytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+Analytics.m"; sourceTree = "<group>"; };
+		5F4417572542E86200E27A22 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		5F4417582542E86200E27A22 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		5F94DC3A2539747500860A82 /* KHAnalyticsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KHAnalyticsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F94DC3D2539747500860A82 /* KHAnalyticsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHAnalyticsSDK.h; sourceTree = "<group>"; };
+		5F94DC3E2539747500860A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F94DC95253977B600860A82 /* KHSensorsAnalyicsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHSensorsAnalyicsSDK.h; sourceTree = "<group>"; };
+		5F94DC96253977B600860A82 /* KHSensorsAnalyicsSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHSensorsAnalyicsSDK.m; sourceTree = "<group>"; };
+		5F94DCA02539973400860A82 /* NSObject+KHSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KHSwizzler.h"; sourceTree = "<group>"; };
+		5F94DCA12539973400860A82 /* NSObject+KHSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KHSwizzler.m"; sourceTree = "<group>"; };
+		5F94DCA625399BED00860A82 /* UIViewController+Analyics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Analyics.h"; sourceTree = "<group>"; };
+		5F94DCA725399BED00860A82 /* UIViewController+Analyics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Analyics.m"; sourceTree = "<group>"; };
+		5F94DCAC25399FBF00860A82 /* KHAnalycisBlackList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = KHAnalycisBlackList.plist; sourceTree = "<group>"; };
+		5F9CB8D1253D9F8C0073059F /* UIGestureRecognizer+Analyics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Analyics.h"; sourceTree = "<group>"; };
+		5F9CB8D2253D9F8C0073059F /* UIGestureRecognizer+Analyics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Analyics.m"; sourceTree = "<group>"; };
+		5FEE1A18254162F40044B566 /* KHSystemParam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHSystemParam.h; sourceTree = "<group>"; };
+		5FEE1A19254162F40044B566 /* KHSystemParam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHSystemParam.m; sourceTree = "<group>"; };
+		5FEE1A1E254176630044B566 /* KHReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHReachability.m; sourceTree = "<group>"; };
+		5FEE1A1F254176630044B566 /* KHReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHReachability.h; sourceTree = "<group>"; };
+		5FEE1A242541778A0044B566 /* KHAnalyicsLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHAnalyicsLog.h; sourceTree = "<group>"; };
+		5FEE1A2C25418A570044B566 /* KHSensorsAnalyicsTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHSensorsAnalyicsTool.h; sourceTree = "<group>"; };
+		5FEE1A2D25418A570044B566 /* KHSensorsAnalyicsTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHSensorsAnalyicsTool.m; sourceTree = "<group>"; };
+		5FEE1A31254195190044B566 /* KHSensorsAnalyicsCommonTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHSensorsAnalyicsCommonTool.h; sourceTree = "<group>"; };
+		5FEE1A32254195190044B566 /* KHSensorsAnalyicsCommonTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHSensorsAnalyicsCommonTool.m; sourceTree = "<group>"; };
+		5FEE1A362541966F0044B566 /* KHAnalyicsConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHAnalyicsConstants.h; sourceTree = "<group>"; };
+		5FEE1A372541966F0044B566 /* KHAnalyicsConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHAnalyicsConstants.m; sourceTree = "<group>"; };
+		5FEE1A3B25427D020044B566 /* KHAnalyicsTrackProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHAnalyicsTrackProperty.h; sourceTree = "<group>"; };
+		5FFF55B1255146C100AC2C16 /* YLLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLLogger.h; sourceTree = "<group>"; };
+		5FFF55B2255146C100AC2C16 /* YLLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLLogger.m; sourceTree = "<group>"; };
+		5FFF55B825523B7300AC2C16 /* YLDispatchAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDispatchAsync.h; sourceTree = "<group>"; };
+		5FFF55B925523B7300AC2C16 /* YLDispatchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDispatchOperation.h; sourceTree = "<group>"; };
+		5FFF55BA25523B7300AC2C16 /* YLDispatchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDispatchOperation.m; sourceTree = "<group>"; };
+		5FFF55BB25523B7300AC2C16 /* YLDispatchAsync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDispatchAsync.m; sourceTree = "<group>"; };
+		5FFF55C32552765900AC2C16 /* YLCrashMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCrashMonitor.h; sourceTree = "<group>"; };
+		5FFF55C42552765900AC2C16 /* YLCrashMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLCrashMonitor.m; sourceTree = "<group>"; };
+		5FFF55CC255277D500AC2C16 /* YLJsonConverTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLJsonConverTool.h; sourceTree = "<group>"; };
+		5FFF55CD255277D500AC2C16 /* YLJsonConverTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLJsonConverTool.m; sourceTree = "<group>"; };
+		5FFF55D225527A6800AC2C16 /* YLBacktraceLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBacktraceLogger.h; sourceTree = "<group>"; };
+		5FFF55D325527A6800AC2C16 /* YLBacktraceLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBacktraceLogger.m; sourceTree = "<group>"; };
+		5FFF55D825527D0700AC2C16 /* UIApplication+YLTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+YLTool.h"; sourceTree = "<group>"; };
+		5FFF55D925527D0700AC2C16 /* UIApplication+YLTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+YLTool.m"; sourceTree = "<group>"; };
+		5FFF55DE25527D8500AC2C16 /* UIView+YLTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YLTool.h"; sourceTree = "<group>"; };
+		5FFF55DF25527D8500AC2C16 /* UIView+YLTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YLTool.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F94DC372539747500860A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F125D40253EF3C800EBD269 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				5FFF55CB255277B200AC2C16 /* Other */,
+				5FFF55B7255161A800AC2C16 /* Dispatch */,
+				5F125D2F253EC05700EBD269 /* KHSensorsAnalyticsKeychainTool.h */,
+				5F125D30253EC05700EBD269 /* KHSensorsAnalyticsKeychainTool.m */,
+				5F125D3B253EF3BD00EBD269 /* KHSensorsAnalyticsNetwork.h */,
+				5F125D3C253EF3BD00EBD269 /* KHSensorsAnalyticsNetwork.m */,
+				5FEE1A2C25418A570044B566 /* KHSensorsAnalyicsTool.h */,
+				5FEE1A2D25418A570044B566 /* KHSensorsAnalyicsTool.m */,
+				5FEE1A31254195190044B566 /* KHSensorsAnalyicsCommonTool.h */,
+				5FEE1A32254195190044B566 /* KHSensorsAnalyicsCommonTool.m */,
+				5FEE1A362541966F0044B566 /* KHAnalyicsConstants.h */,
+				5FEE1A372541966F0044B566 /* KHAnalyicsConstants.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		5F94DC302539747500860A82 = {
+			isa = PBXGroup;
+			children = (
+				5F94DC3C2539747500860A82 /* KHAnalyticsSDK */,
+				5F94DC3B2539747500860A82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F94DC3B2539747500860A82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F94DC3A2539747500860A82 /* KHAnalyticsSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F94DC3C2539747500860A82 /* KHAnalyticsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5F94DC3D2539747500860A82 /* KHAnalyticsSDK.h */,
+				5F94DC95253977B600860A82 /* KHSensorsAnalyicsSDK.h */,
+				5F94DC96253977B600860A82 /* KHSensorsAnalyicsSDK.m */,
+				5FFF55B02551458900AC2C16 /* AppMonitor */,
+				5FEE1A17254162910044B566 /* Other */,
+				5F125D40253EF3C800EBD269 /* Tool */,
+				5F94DCA525399BC700860A82 /* Analyics */,
+				5F94DC3E2539747500860A82 /* Info.plist */,
+			);
+			path = KHAnalyticsSDK;
+			sourceTree = "<group>";
+		};
+		5F94DCA525399BC700860A82 /* Analyics */ = {
+			isa = PBXGroup;
+			children = (
+				5F94DCA02539973400860A82 /* NSObject+KHSwizzler.h */,
+				5F94DCA12539973400860A82 /* NSObject+KHSwizzler.m */,
+				5F94DCA625399BED00860A82 /* UIViewController+Analyics.h */,
+				5F94DCA725399BED00860A82 /* UIViewController+Analyics.m */,
+				5F15A1AD253D33A100E16FE6 /* UIApplication+Analyics.h */,
+				5F15A1AE253D33A100E16FE6 /* UIApplication+Analyics.m */,
+				5F15A1B2253D385600E16FE6 /* UIView+Analyics.h */,
+				5F15A1B3253D385600E16FE6 /* UIView+Analyics.m */,
+				5F15A1BD253D7B2900E16FE6 /* UITableView+Analyics.h */,
+				5F15A1BE253D7B2900E16FE6 /* UITableView+Analyics.m */,
+				5F15A1C4253D891E00E16FE6 /* UICollectionView+Analyics.h */,
+				5F15A1C5253D891E00E16FE6 /* UICollectionView+Analyics.m */,
+				5F9CB8D1253D9F8C0073059F /* UIGestureRecognizer+Analyics.h */,
+				5F9CB8D2253D9F8C0073059F /* UIGestureRecognizer+Analyics.m */,
+				5F4417522542CCFA00E27A22 /* WKWebView+Analytics.h */,
+				5F4417532542CCFA00E27A22 /* WKWebView+Analytics.m */,
+				5F94DCAC25399FBF00860A82 /* KHAnalycisBlackList.plist */,
+			);
+			path = Analyics;
+			sourceTree = "<group>";
+		};
+		5FEE1A17254162910044B566 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5FEE1A18254162F40044B566 /* KHSystemParam.h */,
+				5FEE1A19254162F40044B566 /* KHSystemParam.m */,
+				5FEE1A1F254176630044B566 /* KHReachability.h */,
+				5FEE1A1E254176630044B566 /* KHReachability.m */,
+				5F4417572542E86200E27A22 /* Aspects.h */,
+				5F4417582542E86200E27A22 /* Aspects.m */,
+				5FEE1A242541778A0044B566 /* KHAnalyicsLog.h */,
+				5FEE1A3B25427D020044B566 /* KHAnalyicsTrackProperty.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5FFF55B02551458900AC2C16 /* AppMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				5FFF55D725527CA400AC2C16 /* UI */,
+				5FFF55C22552763C00AC2C16 /* Log */,
+				5FFF55C12552762E00AC2C16 /* Crash */,
+			);
+			path = AppMonitor;
+			sourceTree = "<group>";
+		};
+		5FFF55B7255161A800AC2C16 /* Dispatch */ = {
+			isa = PBXGroup;
+			children = (
+				5FFF55B825523B7300AC2C16 /* YLDispatchAsync.h */,
+				5FFF55BB25523B7300AC2C16 /* YLDispatchAsync.m */,
+				5FFF55B925523B7300AC2C16 /* YLDispatchOperation.h */,
+				5FFF55BA25523B7300AC2C16 /* YLDispatchOperation.m */,
+			);
+			path = Dispatch;
+			sourceTree = "<group>";
+		};
+		5FFF55C12552762E00AC2C16 /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				5FFF55C32552765900AC2C16 /* YLCrashMonitor.h */,
+				5FFF55C42552765900AC2C16 /* YLCrashMonitor.m */,
+			);
+			path = Crash;
+			sourceTree = "<group>";
+		};
+		5FFF55C22552763C00AC2C16 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				5FFF55B1255146C100AC2C16 /* YLLogger.h */,
+				5FFF55B2255146C100AC2C16 /* YLLogger.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		5FFF55CB255277B200AC2C16 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5FFF55CC255277D500AC2C16 /* YLJsonConverTool.h */,
+				5FFF55CD255277D500AC2C16 /* YLJsonConverTool.m */,
+				5FFF55D225527A6800AC2C16 /* YLBacktraceLogger.h */,
+				5FFF55D325527A6800AC2C16 /* YLBacktraceLogger.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5FFF55D725527CA400AC2C16 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5FFF55D825527D0700AC2C16 /* UIApplication+YLTool.h */,
+				5FFF55D925527D0700AC2C16 /* UIApplication+YLTool.m */,
+				5FFF55DE25527D8500AC2C16 /* UIView+YLTool.h */,
+				5FFF55DF25527D8500AC2C16 /* UIView+YLTool.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F94DC352539747500860A82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEE1A2E25418A570044B566 /* KHSensorsAnalyicsTool.h in Headers */,
+				5F125D31253EC05700EBD269 /* KHSensorsAnalyticsKeychainTool.h in Headers */,
+				5FFF55BD25523B7300AC2C16 /* YLDispatchOperation.h in Headers */,
+				5F94DC97253977B600860A82 /* KHSensorsAnalyicsSDK.h in Headers */,
+				5FFF55DA25527D0700AC2C16 /* UIApplication+YLTool.h in Headers */,
+				5FEE1A3C25427D020044B566 /* KHAnalyicsTrackProperty.h in Headers */,
+				5F9CB8D3253D9F8C0073059F /* UIGestureRecognizer+Analyics.h in Headers */,
+				5FFF55B3255146C100AC2C16 /* YLLogger.h in Headers */,
+				5F15A1AF253D33A100E16FE6 /* UIApplication+Analyics.h in Headers */,
+				5FFF55E025527D8500AC2C16 /* UIView+YLTool.h in Headers */,
+				5F94DCA825399BED00860A82 /* UIViewController+Analyics.h in Headers */,
+				5FFF55D425527A6800AC2C16 /* YLBacktraceLogger.h in Headers */,
+				5F15A1B4253D385600E16FE6 /* UIView+Analyics.h in Headers */,
+				5FFF55BC25523B7300AC2C16 /* YLDispatchAsync.h in Headers */,
+				5FFF55C52552765900AC2C16 /* YLCrashMonitor.h in Headers */,
+				5F125D3D253EF3BD00EBD269 /* KHSensorsAnalyticsNetwork.h in Headers */,
+				5FEE1A1A254162F40044B566 /* KHSystemParam.h in Headers */,
+				5F4417542542CCFA00E27A22 /* WKWebView+Analytics.h in Headers */,
+				5FEE1A33254195190044B566 /* KHSensorsAnalyicsCommonTool.h in Headers */,
+				5FEE1A21254176630044B566 /* KHReachability.h in Headers */,
+				5F94DC3F2539747500860A82 /* KHAnalyticsSDK.h in Headers */,
+				5F15A1C6253D891E00E16FE6 /* UICollectionView+Analyics.h in Headers */,
+				5F4417592542E86200E27A22 /* Aspects.h in Headers */,
+				5F15A1BF253D7B2900E16FE6 /* UITableView+Analyics.h in Headers */,
+				5F94DCA22539973400860A82 /* NSObject+KHSwizzler.h in Headers */,
+				5FEE1A252541778A0044B566 /* KHAnalyicsLog.h in Headers */,
+				5FEE1A382541966F0044B566 /* KHAnalyicsConstants.h in Headers */,
+				5FFF55CE255277D500AC2C16 /* YLJsonConverTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F94DC392539747500860A82 /* KHAnalyticsSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F94DC422539747500860A82 /* Build configuration list for PBXNativeTarget "KHAnalyticsSDK" */;
+			buildPhases = (
+				5F94DC352539747500860A82 /* Headers */,
+				5F94DC362539747500860A82 /* Sources */,
+				5F94DC372539747500860A82 /* Frameworks */,
+				5F94DC382539747500860A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KHAnalyticsSDK;
+			productName = KHAnalyticsSDK;
+			productReference = 5F94DC3A2539747500860A82 /* KHAnalyticsSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F94DC312539747500860A82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5F94DC392539747500860A82 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 5F94DC342539747500860A82 /* Build configuration list for PBXProject "KHAnalyticsSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F94DC302539747500860A82;
+			productRefGroup = 5F94DC3B2539747500860A82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F94DC392539747500860A82 /* KHAnalyticsSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F94DC382539747500860A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F94DCAD25399FBF00860A82 /* KHAnalycisBlackList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F94DC362539747500860A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F15A1B0253D33A100E16FE6 /* UIApplication+Analyics.m in Sources */,
+				5FFF55E125527D8500AC2C16 /* UIView+YLTool.m in Sources */,
+				5F94DCA925399BED00860A82 /* UIViewController+Analyics.m in Sources */,
+				5FFF55B4255146C100AC2C16 /* YLLogger.m in Sources */,
+				5F15A1C7253D891E00E16FE6 /* UICollectionView+Analyics.m in Sources */,
+				5FEE1A392541966F0044B566 /* KHAnalyicsConstants.m in Sources */,
+				5FEE1A34254195190044B566 /* KHSensorsAnalyicsCommonTool.m in Sources */,
+				5FFF55BE25523B7300AC2C16 /* YLDispatchOperation.m in Sources */,
+				5FFF55DB25527D0700AC2C16 /* UIApplication+YLTool.m in Sources */,
+				5F44175A2542E86200E27A22 /* Aspects.m in Sources */,
+				5F94DCA32539973400860A82 /* NSObject+KHSwizzler.m in Sources */,
+				5FFF55BF25523B7300AC2C16 /* YLDispatchAsync.m in Sources */,
+				5F15A1B5253D385600E16FE6 /* UIView+Analyics.m in Sources */,
+				5F4417552542CCFA00E27A22 /* WKWebView+Analytics.m in Sources */,
+				5F125D32253EC05700EBD269 /* KHSensorsAnalyticsKeychainTool.m in Sources */,
+				5FFF55D525527A6800AC2C16 /* YLBacktraceLogger.m in Sources */,
+				5FEE1A1B254162F40044B566 /* KHSystemParam.m in Sources */,
+				5FFF55CF255277D500AC2C16 /* YLJsonConverTool.m in Sources */,
+				5FEE1A2F25418A570044B566 /* KHSensorsAnalyicsTool.m in Sources */,
+				5F125D3E253EF3BD00EBD269 /* KHSensorsAnalyticsNetwork.m in Sources */,
+				5FFF55C62552765900AC2C16 /* YLCrashMonitor.m in Sources */,
+				5F9CB8D4253D9F8C0073059F /* UIGestureRecognizer+Analyics.m in Sources */,
+				5FEE1A20254176630044B566 /* KHReachability.m in Sources */,
+				5F94DC98253977B600860A82 /* KHSensorsAnalyicsSDK.m in Sources */,
+				5F15A1C0253D7B2900E16FE6 /* UITableView+Analyics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5F94DC402539747500860A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F94DC412539747500860A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F94DC432539747500860A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 202010231614;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4K4R6E9S96;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"KEHOU_LOG=1",
+				);
+				INFOPLIST_FILE = KHAnalyticsSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wanpeng.KHAnalyticsSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F94DC442539747500860A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 202010231614;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4K4R6E9S96;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KHAnalyticsSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wanpeng.KHAnalyticsSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F94DC342539747500860A82 /* Build configuration list for PBXProject "KHAnalyticsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F94DC402539747500860A82 /* Debug */,
+				5F94DC412539747500860A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F94DC422539747500860A82 /* Build configuration list for PBXNativeTarget "KHAnalyticsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F94DC432539747500860A82 /* Debug */,
+				5F94DC442539747500860A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F94DC312539747500860A82 /* Project object */;
+}
