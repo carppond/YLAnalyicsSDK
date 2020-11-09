@@ -7,10 +7,19 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
 
 @interface YLAppFluencyMonitor : NSObject
 
++ (instancetype)shareInstance;
+
+- (void)beginMonitor;
+
+- (void)endMonitor;
+
 @end
 
-NS_ASSUME_NONNULL_END
+@interface YLAppCPUMonitor : NSObject
+
++ (void)updateCPU;
+
+@end

@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <mach/mach.h>
 
 /*!
  *  @brief  线程堆栈上下文输出
@@ -16,6 +17,7 @@
 + (NSString *)yl_backtraceOfMainThread;
 + (NSString *)yl_backtraceOfCurrentThread;
 + (NSString *)yl_backtraceOfNSThread:(NSThread *)thread;
++ (NSString *)yl_backtraceOfPThread:(thread_t)thread;
 
 + (void)yl_logMain;
 + (void)yl_logCurrent;

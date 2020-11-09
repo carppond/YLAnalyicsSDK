@@ -129,6 +129,11 @@ static inline dispatch_queue_t yl_log_IO_queue() {
     return _yl_backtraceOfThread(yl_machThreadFromNSThread(thread));
 }
 
++ (NSString *)yl_backtraceOfPThread:(thread_t)thread {
+    return _yl_backtraceOfThread(thread);
+}
+
+
 + (void)yl_logMain {
     LOG_SEPERATE
     NSLog(@"%@", [self yl_backtraceOfMainThread]);
