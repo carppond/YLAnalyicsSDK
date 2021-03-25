@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FDFCE72260C5AE3007BAF9E /* YLAnalyticsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCE70260C5AE3007BAF9E /* YLAnalyticsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FDFCF1B260C5FC4007BAF9E /* YLSensorsAnalyicsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCED9260C5FC4007BAF9E /* YLSensorsAnalyicsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FDFCF1C260C5FC4007BAF9E /* UIView+YLTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCEDC260C5FC4007BAF9E /* UIView+YLTool.h */; };
+		5FDFCF1D260C5FC4007BAF9E /* UIApplication+YLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCEDD260C5FC4007BAF9E /* UIApplication+YLTool.m */; };
+		5FDFCF1E260C5FC4007BAF9E /* UIApplication+YLTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCEDE260C5FC4007BAF9E /* UIApplication+YLTool.h */; };
+		5FDFCF1F260C5FC4007BAF9E /* UIView+YLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCEDF260C5FC4007BAF9E /* UIView+YLTool.m */; };
+		5FDFCF20260C5FC4007BAF9E /* YLCrashMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCEE1260C5FC4007BAF9E /* YLCrashMonitor.m */; };
+		5FDFCF21260C5FC4007BAF9E /* YLCrashMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCEE2260C5FC4007BAF9E /* YLCrashMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FDFCF22260C5FC4007BAF9E /* YLAppFluencyMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCEE4260C5FC4007BAF9E /* YLAppFluencyMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FDFCF23260C5FC4007BAF9E /* YLAppFluencyMonitor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCEE5260C5FC4007BAF9E /* YLAppFluencyMonitor.mm */; };
+		5FDFCF24260C5FC4007BAF9E /* YLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCEE7260C5FC4007BAF9E /* YLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FDFCF25260C5FC4007BAF9E /* YLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCEE8260C5FC4007BAF9E /* YLLogger.m */; };
+		5FDFCF26260C5FC4007BAF9E /* YLSensorsAnalyicsSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCEE9260C5FC4007BAF9E /* YLSensorsAnalyicsSDK.m */; };
+		5FDFCF27260C5FC4007BAF9E /* YLAnalyicsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCEEB260C5FC4007BAF9E /* YLAnalyicsConstants.m */; };
+		5FDFCF28260C5FC4007BAF9E /* YLSensorsAnalyticsNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCEEC260C5FC4007BAF9E /* YLSensorsAnalyticsNetwork.m */; };
+		5FDFCF29260C5FC4007BAF9E /* YLDispatchAsync.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCEEE260C5FC4007BAF9E /* YLDispatchAsync.m */; };
+		5FDFCF2A260C5FC4007BAF9E /* YLDispatchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCEEF260C5FC4007BAF9E /* YLDispatchOperation.m */; };
+		5FDFCF2B260C5FC4007BAF9E /* YLDispatchAsync.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCEF0260C5FC4007BAF9E /* YLDispatchAsync.h */; };
+		5FDFCF2C260C5FC4007BAF9E /* YLDispatchOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCEF1260C5FC4007BAF9E /* YLDispatchOperation.h */; };
+		5FDFCF2D260C5FC4007BAF9E /* YLSensorsAnalyicsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCEF2260C5FC4007BAF9E /* YLSensorsAnalyicsTool.m */; };
+		5FDFCF2E260C5FC4007BAF9E /* YLSensorsAnalyicsCommonTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCEF3260C5FC4007BAF9E /* YLSensorsAnalyicsCommonTool.h */; };
+		5FDFCF2F260C5FC4007BAF9E /* YLBacktraceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCEF5260C5FC4007BAF9E /* YLBacktraceLogger.h */; };
+		5FDFCF30260C5FC4007BAF9E /* YLJsonConverTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCEF6260C5FC4007BAF9E /* YLJsonConverTool.h */; };
+		5FDFCF31260C5FC4007BAF9E /* YLJsonConverTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCEF7260C5FC4007BAF9E /* YLJsonConverTool.m */; };
+		5FDFCF32260C5FC4007BAF9E /* YLBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCEF8260C5FC4007BAF9E /* YLBacktraceLogger.m */; };
+		5FDFCF33260C5FC4007BAF9E /* YLSensorsAnalyticsKeychainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCEF9260C5FC4007BAF9E /* YLSensorsAnalyticsKeychainTool.m */; };
+		5FDFCF34260C5FC4007BAF9E /* YLSensorsAnalyticsNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCEFA260C5FC4007BAF9E /* YLSensorsAnalyticsNetwork.h */; };
+		5FDFCF35260C5FC5007BAF9E /* YLAnalyicsConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCEFB260C5FC4007BAF9E /* YLAnalyicsConstants.h */; };
+		5FDFCF36260C5FC5007BAF9E /* YLSensorsAnalyicsTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCEFC260C5FC4007BAF9E /* YLSensorsAnalyicsTool.h */; };
+		5FDFCF37260C5FC5007BAF9E /* YLSensorsAnalyicsCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCEFD260C5FC4007BAF9E /* YLSensorsAnalyicsCommonTool.m */; };
+		5FDFCF38260C5FC5007BAF9E /* YLSensorsAnalyticsKeychainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCEFE260C5FC4007BAF9E /* YLSensorsAnalyticsKeychainTool.h */; };
+		5FDFCF39260C5FC5007BAF9E /* YLAnalyicsLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCF00260C5FC4007BAF9E /* YLAnalyicsLog.h */; };
+		5FDFCF3A260C5FC5007BAF9E /* YLAnalyicsTrackProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCF01260C5FC4007BAF9E /* YLAnalyicsTrackProperty.h */; };
+		5FDFCF3B260C5FC5007BAF9E /* YLReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCF02260C5FC4007BAF9E /* YLReachability.m */; };
+		5FDFCF3C260C5FC5007BAF9E /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCF03260C5FC4007BAF9E /* Aspects.h */; };
+		5FDFCF3D260C5FC5007BAF9E /* YLSystemParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCF04260C5FC4007BAF9E /* YLSystemParam.h */; };
+		5FDFCF3E260C5FC5007BAF9E /* YLAnalyicsTyeDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCF05260C5FC4007BAF9E /* YLAnalyicsTyeDefine.h */; };
+		5FDFCF3F260C5FC5007BAF9E /* YLReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCF06260C5FC4007BAF9E /* YLReachability.h */; };
+		5FDFCF40260C5FC5007BAF9E /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCF07260C5FC4007BAF9E /* Aspects.m */; };
+		5FDFCF41260C5FC5007BAF9E /* YLSystemParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCF08260C5FC4007BAF9E /* YLSystemParam.m */; };
+		5FDFCF42260C5FC5007BAF9E /* UICollectionView+Analyics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCF0A260C5FC4007BAF9E /* UICollectionView+Analyics.h */; };
+		5FDFCF43260C5FC5007BAF9E /* UIView+Analyics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCF0B260C5FC4007BAF9E /* UIView+Analyics.h */; };
+		5FDFCF44260C5FC5007BAF9E /* UITableView+Analyics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCF0C260C5FC4007BAF9E /* UITableView+Analyics.h */; };
+		5FDFCF45260C5FC5007BAF9E /* WKWebView+Analytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCF0D260C5FC4007BAF9E /* WKWebView+Analytics.m */; };
+		5FDFCF46260C5FC5007BAF9E /* UIApplication+Analyics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCF0E260C5FC4007BAF9E /* UIApplication+Analyics.h */; };
+		5FDFCF47260C5FC5007BAF9E /* UIViewController+Analyics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCF0F260C5FC4007BAF9E /* UIViewController+Analyics.m */; };
+		5FDFCF48260C5FC5007BAF9E /* NSObject+YLSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCF10260C5FC4007BAF9E /* NSObject+YLSwizzler.h */; };
+		5FDFCF49260C5FC5007BAF9E /* YLAnalycisBlackList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FDFCF11260C5FC4007BAF9E /* YLAnalycisBlackList.plist */; };
+		5FDFCF4A260C5FC5007BAF9E /* UIGestureRecognizer+Analyics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCF12260C5FC4007BAF9E /* UIGestureRecognizer+Analyics.m */; };
+		5FDFCF4B260C5FC5007BAF9E /* UICollectionView+Analyics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCF13260C5FC4007BAF9E /* UICollectionView+Analyics.m */; };
+		5FDFCF4C260C5FC5007BAF9E /* UIView+Analyics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCF14260C5FC4007BAF9E /* UIView+Analyics.m */; };
+		5FDFCF4D260C5FC5007BAF9E /* UIViewController+Analyics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCF15260C5FC4007BAF9E /* UIViewController+Analyics.h */; };
+		5FDFCF4E260C5FC5007BAF9E /* UIApplication+Analyics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCF16260C5FC4007BAF9E /* UIApplication+Analyics.m */; };
+		5FDFCF4F260C5FC5007BAF9E /* WKWebView+Analytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCF17260C5FC4007BAF9E /* WKWebView+Analytics.h */; };
+		5FDFCF50260C5FC5007BAF9E /* UITableView+Analyics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCF18260C5FC4007BAF9E /* UITableView+Analyics.m */; };
+		5FDFCF51260C5FC5007BAF9E /* UIGestureRecognizer+Analyics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDFCF19260C5FC4007BAF9E /* UIGestureRecognizer+Analyics.h */; };
+		5FDFCF52260C5FC5007BAF9E /* NSObject+YLSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFCF1A260C5FC4007BAF9E /* NSObject+YLSwizzler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FDFCE6D260C5AE3007BAF9E /* YLAnalyticsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YLAnalyticsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FDFCE70260C5AE3007BAF9E /* YLAnalyticsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAnalyticsSDK.h; sourceTree = "<group>"; };
+		5FDFCE71260C5AE3007BAF9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FDFCED9260C5FC4007BAF9E /* YLSensorsAnalyicsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSensorsAnalyicsSDK.h; sourceTree = "<group>"; };
+		5FDFCEDC260C5FC4007BAF9E /* UIView+YLTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YLTool.h"; sourceTree = "<group>"; };
+		5FDFCEDD260C5FC4007BAF9E /* UIApplication+YLTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+YLTool.m"; sourceTree = "<group>"; };
+		5FDFCEDE260C5FC4007BAF9E /* UIApplication+YLTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+YLTool.h"; sourceTree = "<group>"; };
+		5FDFCEDF260C5FC4007BAF9E /* UIView+YLTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YLTool.m"; sourceTree = "<group>"; };
+		5FDFCEE1260C5FC4007BAF9E /* YLCrashMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCrashMonitor.m; sourceTree = "<group>"; };
+		5FDFCEE2260C5FC4007BAF9E /* YLCrashMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCrashMonitor.h; sourceTree = "<group>"; };
+		5FDFCEE4260C5FC4007BAF9E /* YLAppFluencyMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAppFluencyMonitor.h; sourceTree = "<group>"; };
+		5FDFCEE5260C5FC4007BAF9E /* YLAppFluencyMonitor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YLAppFluencyMonitor.mm; sourceTree = "<group>"; };
+		5FDFCEE7260C5FC4007BAF9E /* YLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLLogger.h; sourceTree = "<group>"; };
+		5FDFCEE8260C5FC4007BAF9E /* YLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLLogger.m; sourceTree = "<group>"; };
+		5FDFCEE9260C5FC4007BAF9E /* YLSensorsAnalyicsSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSensorsAnalyicsSDK.m; sourceTree = "<group>"; };
+		5FDFCEEB260C5FC4007BAF9E /* YLAnalyicsConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAnalyicsConstants.m; sourceTree = "<group>"; };
+		5FDFCEEC260C5FC4007BAF9E /* YLSensorsAnalyticsNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSensorsAnalyticsNetwork.m; sourceTree = "<group>"; };
+		5FDFCEEE260C5FC4007BAF9E /* YLDispatchAsync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDispatchAsync.m; sourceTree = "<group>"; };
+		5FDFCEEF260C5FC4007BAF9E /* YLDispatchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDispatchOperation.m; sourceTree = "<group>"; };
+		5FDFCEF0260C5FC4007BAF9E /* YLDispatchAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDispatchAsync.h; sourceTree = "<group>"; };
+		5FDFCEF1260C5FC4007BAF9E /* YLDispatchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDispatchOperation.h; sourceTree = "<group>"; };
+		5FDFCEF2260C5FC4007BAF9E /* YLSensorsAnalyicsTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSensorsAnalyicsTool.m; sourceTree = "<group>"; };
+		5FDFCEF3260C5FC4007BAF9E /* YLSensorsAnalyicsCommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSensorsAnalyicsCommonTool.h; sourceTree = "<group>"; };
+		5FDFCEF5260C5FC4007BAF9E /* YLBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLBacktraceLogger.h; sourceTree = "<group>"; };
+		5FDFCEF6260C5FC4007BAF9E /* YLJsonConverTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLJsonConverTool.h; sourceTree = "<group>"; };
+		5FDFCEF7260C5FC4007BAF9E /* YLJsonConverTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLJsonConverTool.m; sourceTree = "<group>"; };
+		5FDFCEF8260C5FC4007BAF9E /* YLBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLBacktraceLogger.m; sourceTree = "<group>"; };
+		5FDFCEF9260C5FC4007BAF9E /* YLSensorsAnalyticsKeychainTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSensorsAnalyticsKeychainTool.m; sourceTree = "<group>"; };
+		5FDFCEFA260C5FC4007BAF9E /* YLSensorsAnalyticsNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSensorsAnalyticsNetwork.h; sourceTree = "<group>"; };
+		5FDFCEFB260C5FC4007BAF9E /* YLAnalyicsConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAnalyicsConstants.h; sourceTree = "<group>"; };
+		5FDFCEFC260C5FC4007BAF9E /* YLSensorsAnalyicsTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSensorsAnalyicsTool.h; sourceTree = "<group>"; };
+		5FDFCEFD260C5FC4007BAF9E /* YLSensorsAnalyicsCommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSensorsAnalyicsCommonTool.m; sourceTree = "<group>"; };
+		5FDFCEFE260C5FC4007BAF9E /* YLSensorsAnalyticsKeychainTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSensorsAnalyticsKeychainTool.h; sourceTree = "<group>"; };
+		5FDFCF00260C5FC4007BAF9E /* YLAnalyicsLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAnalyicsLog.h; sourceTree = "<group>"; };
+		5FDFCF01260C5FC4007BAF9E /* YLAnalyicsTrackProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAnalyicsTrackProperty.h; sourceTree = "<group>"; };
+		5FDFCF02260C5FC4007BAF9E /* YLReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLReachability.m; sourceTree = "<group>"; };
+		5FDFCF03260C5FC4007BAF9E /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		5FDFCF04260C5FC4007BAF9E /* YLSystemParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSystemParam.h; sourceTree = "<group>"; };
+		5FDFCF05260C5FC4007BAF9E /* YLAnalyicsTyeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAnalyicsTyeDefine.h; sourceTree = "<group>"; };
+		5FDFCF06260C5FC4007BAF9E /* YLReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLReachability.h; sourceTree = "<group>"; };
+		5FDFCF07260C5FC4007BAF9E /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		5FDFCF08260C5FC4007BAF9E /* YLSystemParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSystemParam.m; sourceTree = "<group>"; };
+		5FDFCF0A260C5FC4007BAF9E /* UICollectionView+Analyics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Analyics.h"; sourceTree = "<group>"; };
+		5FDFCF0B260C5FC4007BAF9E /* UIView+Analyics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Analyics.h"; sourceTree = "<group>"; };
+		5FDFCF0C260C5FC4007BAF9E /* UITableView+Analyics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Analyics.h"; sourceTree = "<group>"; };
+		5FDFCF0D260C5FC4007BAF9E /* WKWebView+Analytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+Analytics.m"; sourceTree = "<group>"; };
+		5FDFCF0E260C5FC4007BAF9E /* UIApplication+Analyics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Analyics.h"; sourceTree = "<group>"; };
+		5FDFCF0F260C5FC4007BAF9E /* UIViewController+Analyics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Analyics.m"; sourceTree = "<group>"; };
+		5FDFCF10260C5FC4007BAF9E /* NSObject+YLSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YLSwizzler.h"; sourceTree = "<group>"; };
+		5FDFCF11260C5FC4007BAF9E /* YLAnalycisBlackList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YLAnalycisBlackList.plist; sourceTree = "<group>"; };
+		5FDFCF12260C5FC4007BAF9E /* UIGestureRecognizer+Analyics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Analyics.m"; sourceTree = "<group>"; };
+		5FDFCF13260C5FC4007BAF9E /* UICollectionView+Analyics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Analyics.m"; sourceTree = "<group>"; };
+		5FDFCF14260C5FC4007BAF9E /* UIView+Analyics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Analyics.m"; sourceTree = "<group>"; };
+		5FDFCF15260C5FC4007BAF9E /* UIViewController+Analyics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Analyics.h"; sourceTree = "<group>"; };
+		5FDFCF16260C5FC4007BAF9E /* UIApplication+Analyics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Analyics.m"; sourceTree = "<group>"; };
+		5FDFCF17260C5FC4007BAF9E /* WKWebView+Analytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+Analytics.h"; sourceTree = "<group>"; };
+		5FDFCF18260C5FC4007BAF9E /* UITableView+Analyics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Analyics.m"; sourceTree = "<group>"; };
+		5FDFCF19260C5FC4007BAF9E /* UIGestureRecognizer+Analyics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Analyics.h"; sourceTree = "<group>"; };
+		5FDFCF1A260C5FC4007BAF9E /* NSObject+YLSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YLSwizzler.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FDFCE6A260C5AE3007BAF9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FDFCE63260C5AE3007BAF9E = {
+			isa = PBXGroup;
+			children = (
+				5FDFCE6F260C5AE3007BAF9E /* YLAnalyticsSDK */,
+				5FDFCE6E260C5AE3007BAF9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FDFCE6E260C5AE3007BAF9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFCE6D260C5AE3007BAF9E /* YLAnalyticsSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FDFCE6F260C5AE3007BAF9E /* YLAnalyticsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFCE70260C5AE3007BAF9E /* YLAnalyticsSDK.h */,
+				5FDFCE71260C5AE3007BAF9E /* Info.plist */,
+				5FDFCF09260C5FC4007BAF9E /* Analyics */,
+				5FDFCEDA260C5FC4007BAF9E /* AppMonitor */,
+				5FDFCED9260C5FC4007BAF9E /* YLSensorsAnalyicsSDK.h */,
+				5FDFCEE9260C5FC4007BAF9E /* YLSensorsAnalyicsSDK.m */,
+				5FDFCEFF260C5FC4007BAF9E /* Other */,
+				5FDFCEEA260C5FC4007BAF9E /* Tool */,
+			);
+			path = YLAnalyticsSDK;
+			sourceTree = "<group>";
+		};
+		5FDFCEDA260C5FC4007BAF9E /* AppMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFCEDB260C5FC4007BAF9E /* UI */,
+				5FDFCEE0260C5FC4007BAF9E /* Crash */,
+				5FDFCEE3260C5FC4007BAF9E /* Fluency */,
+				5FDFCEE6260C5FC4007BAF9E /* Log */,
+			);
+			path = AppMonitor;
+			sourceTree = "<group>";
+		};
+		5FDFCEDB260C5FC4007BAF9E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFCEDC260C5FC4007BAF9E /* UIView+YLTool.h */,
+				5FDFCEDF260C5FC4007BAF9E /* UIView+YLTool.m */,
+				5FDFCEDE260C5FC4007BAF9E /* UIApplication+YLTool.h */,
+				5FDFCEDD260C5FC4007BAF9E /* UIApplication+YLTool.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5FDFCEE0260C5FC4007BAF9E /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFCEE2260C5FC4007BAF9E /* YLCrashMonitor.h */,
+				5FDFCEE1260C5FC4007BAF9E /* YLCrashMonitor.m */,
+			);
+			path = Crash;
+			sourceTree = "<group>";
+		};
+		5FDFCEE3260C5FC4007BAF9E /* Fluency */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFCEE4260C5FC4007BAF9E /* YLAppFluencyMonitor.h */,
+				5FDFCEE5260C5FC4007BAF9E /* YLAppFluencyMonitor.mm */,
+			);
+			path = Fluency;
+			sourceTree = "<group>";
+		};
+		5FDFCEE6260C5FC4007BAF9E /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFCEE7260C5FC4007BAF9E /* YLLogger.h */,
+				5FDFCEE8260C5FC4007BAF9E /* YLLogger.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		5FDFCEEA260C5FC4007BAF9E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFCEED260C5FC4007BAF9E /* Dispatch */,
+				5FDFCEF4260C5FC4007BAF9E /* Other */,
+				5FDFCEFB260C5FC4007BAF9E /* YLAnalyicsConstants.h */,
+				5FDFCEEB260C5FC4007BAF9E /* YLAnalyicsConstants.m */,
+				5FDFCEFA260C5FC4007BAF9E /* YLSensorsAnalyticsNetwork.h */,
+				5FDFCEEC260C5FC4007BAF9E /* YLSensorsAnalyticsNetwork.m */,
+				5FDFCEFC260C5FC4007BAF9E /* YLSensorsAnalyicsTool.h */,
+				5FDFCEF2260C5FC4007BAF9E /* YLSensorsAnalyicsTool.m */,
+				5FDFCEF3260C5FC4007BAF9E /* YLSensorsAnalyicsCommonTool.h */,
+				5FDFCEFD260C5FC4007BAF9E /* YLSensorsAnalyicsCommonTool.m */,
+				5FDFCEFE260C5FC4007BAF9E /* YLSensorsAnalyticsKeychainTool.h */,
+				5FDFCEF9260C5FC4007BAF9E /* YLSensorsAnalyticsKeychainTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		5FDFCEED260C5FC4007BAF9E /* Dispatch */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFCEF0260C5FC4007BAF9E /* YLDispatchAsync.h */,
+				5FDFCEEE260C5FC4007BAF9E /* YLDispatchAsync.m */,
+				5FDFCEF1260C5FC4007BAF9E /* YLDispatchOperation.h */,
+				5FDFCEEF260C5FC4007BAF9E /* YLDispatchOperation.m */,
+			);
+			path = Dispatch;
+			sourceTree = "<group>";
+		};
+		5FDFCEF4260C5FC4007BAF9E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFCEF5260C5FC4007BAF9E /* YLBacktraceLogger.h */,
+				5FDFCEF8260C5FC4007BAF9E /* YLBacktraceLogger.m */,
+				5FDFCEF6260C5FC4007BAF9E /* YLJsonConverTool.h */,
+				5FDFCEF7260C5FC4007BAF9E /* YLJsonConverTool.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5FDFCEFF260C5FC4007BAF9E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFCF00260C5FC4007BAF9E /* YLAnalyicsLog.h */,
+				5FDFCF06260C5FC4007BAF9E /* YLReachability.h */,
+				5FDFCF02260C5FC4007BAF9E /* YLReachability.m */,
+				5FDFCF03260C5FC4007BAF9E /* Aspects.h */,
+				5FDFCF07260C5FC4007BAF9E /* Aspects.m */,
+				5FDFCF04260C5FC4007BAF9E /* YLSystemParam.h */,
+				5FDFCF08260C5FC4007BAF9E /* YLSystemParam.m */,
+				5FDFCF01260C5FC4007BAF9E /* YLAnalyicsTrackProperty.h */,
+				5FDFCF05260C5FC4007BAF9E /* YLAnalyicsTyeDefine.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5FDFCF09260C5FC4007BAF9E /* Analyics */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFCF10260C5FC4007BAF9E /* NSObject+YLSwizzler.h */,
+				5FDFCF1A260C5FC4007BAF9E /* NSObject+YLSwizzler.m */,
+				5FDFCF0A260C5FC4007BAF9E /* UICollectionView+Analyics.h */,
+				5FDFCF13260C5FC4007BAF9E /* UICollectionView+Analyics.m */,
+				5FDFCF0C260C5FC4007BAF9E /* UITableView+Analyics.h */,
+				5FDFCF18260C5FC4007BAF9E /* UITableView+Analyics.m */,
+				5FDFCF17260C5FC4007BAF9E /* WKWebView+Analytics.h */,
+				5FDFCF0D260C5FC4007BAF9E /* WKWebView+Analytics.m */,
+				5FDFCF15260C5FC4007BAF9E /* UIViewController+Analyics.h */,
+				5FDFCF0F260C5FC4007BAF9E /* UIViewController+Analyics.m */,
+				5FDFCF0E260C5FC4007BAF9E /* UIApplication+Analyics.h */,
+				5FDFCF16260C5FC4007BAF9E /* UIApplication+Analyics.m */,
+				5FDFCF19260C5FC4007BAF9E /* UIGestureRecognizer+Analyics.h */,
+				5FDFCF12260C5FC4007BAF9E /* UIGestureRecognizer+Analyics.m */,
+				5FDFCF0B260C5FC4007BAF9E /* UIView+Analyics.h */,
+				5FDFCF14260C5FC4007BAF9E /* UIView+Analyics.m */,
+				5FDFCF11260C5FC4007BAF9E /* YLAnalycisBlackList.plist */,
+			);
+			path = Analyics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5FDFCE68260C5AE3007BAF9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDFCF38260C5FC5007BAF9E /* YLSensorsAnalyticsKeychainTool.h in Headers */,
+				5FDFCF39260C5FC5007BAF9E /* YLAnalyicsLog.h in Headers */,
+				5FDFCF3D260C5FC5007BAF9E /* YLSystemParam.h in Headers */,
+				5FDFCF2C260C5FC4007BAF9E /* YLDispatchOperation.h in Headers */,
+				5FDFCF51260C5FC5007BAF9E /* UIGestureRecognizer+Analyics.h in Headers */,
+				5FDFCF44260C5FC5007BAF9E /* UITableView+Analyics.h in Headers */,
+				5FDFCF1E260C5FC4007BAF9E /* UIApplication+YLTool.h in Headers */,
+				5FDFCF3A260C5FC5007BAF9E /* YLAnalyicsTrackProperty.h in Headers */,
+				5FDFCF3F260C5FC5007BAF9E /* YLReachability.h in Headers */,
+				5FDFCF3C260C5FC5007BAF9E /* Aspects.h in Headers */,
+				5FDFCF4D260C5FC5007BAF9E /* UIViewController+Analyics.h in Headers */,
+				5FDFCF46260C5FC5007BAF9E /* UIApplication+Analyics.h in Headers */,
+				5FDFCF30260C5FC4007BAF9E /* YLJsonConverTool.h in Headers */,
+				5FDFCF2E260C5FC4007BAF9E /* YLSensorsAnalyicsCommonTool.h in Headers */,
+				5FDFCF24260C5FC4007BAF9E /* YLLogger.h in Headers */,
+				5FDFCF2B260C5FC4007BAF9E /* YLDispatchAsync.h in Headers */,
+				5FDFCF1B260C5FC4007BAF9E /* YLSensorsAnalyicsSDK.h in Headers */,
+				5FDFCF35260C5FC5007BAF9E /* YLAnalyicsConstants.h in Headers */,
+				5FDFCF36260C5FC5007BAF9E /* YLSensorsAnalyicsTool.h in Headers */,
+				5FDFCF43260C5FC5007BAF9E /* UIView+Analyics.h in Headers */,
+				5FDFCF1C260C5FC4007BAF9E /* UIView+YLTool.h in Headers */,
+				5FDFCF21260C5FC4007BAF9E /* YLCrashMonitor.h in Headers */,
+				5FDFCF2F260C5FC4007BAF9E /* YLBacktraceLogger.h in Headers */,
+				5FDFCE72260C5AE3007BAF9E /* YLAnalyticsSDK.h in Headers */,
+				5FDFCF3E260C5FC5007BAF9E /* YLAnalyicsTyeDefine.h in Headers */,
+				5FDFCF22260C5FC4007BAF9E /* YLAppFluencyMonitor.h in Headers */,
+				5FDFCF42260C5FC5007BAF9E /* UICollectionView+Analyics.h in Headers */,
+				5FDFCF4F260C5FC5007BAF9E /* WKWebView+Analytics.h in Headers */,
+				5FDFCF34260C5FC4007BAF9E /* YLSensorsAnalyticsNetwork.h in Headers */,
+				5FDFCF48260C5FC5007BAF9E /* NSObject+YLSwizzler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5FDFCE6C260C5AE3007BAF9E /* YLAnalyticsSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FDFCE75260C5AE3007BAF9E /* Build configuration list for PBXNativeTarget "YLAnalyticsSDK" */;
+			buildPhases = (
+				5FDFCE68260C5AE3007BAF9E /* Headers */,
+				5FDFCE69260C5AE3007BAF9E /* Sources */,
+				5FDFCE6A260C5AE3007BAF9E /* Frameworks */,
+				5FDFCE6B260C5AE3007BAF9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLAnalyticsSDK;
+			productName = YLAnalyticsSDK;
+			productReference = 5FDFCE6D260C5AE3007BAF9E /* YLAnalyticsSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FDFCE64260C5AE3007BAF9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5FDFCE6C260C5AE3007BAF9E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5FDFCE67260C5AE3007BAF9E /* Build configuration list for PBXProject "YLAnalyticsSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FDFCE63260C5AE3007BAF9E;
+			productRefGroup = 5FDFCE6E260C5AE3007BAF9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FDFCE6C260C5AE3007BAF9E /* YLAnalyticsSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FDFCE6B260C5AE3007BAF9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDFCF49260C5FC5007BAF9E /* YLAnalycisBlackList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FDFCE69260C5AE3007BAF9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDFCF33260C5FC4007BAF9E /* YLSensorsAnalyticsKeychainTool.m in Sources */,
+				5FDFCF28260C5FC4007BAF9E /* YLSensorsAnalyticsNetwork.m in Sources */,
+				5FDFCF4A260C5FC5007BAF9E /* UIGestureRecognizer+Analyics.m in Sources */,
+				5FDFCF1D260C5FC4007BAF9E /* UIApplication+YLTool.m in Sources */,
+				5FDFCF50260C5FC5007BAF9E /* UITableView+Analyics.m in Sources */,
+				5FDFCF4E260C5FC5007BAF9E /* UIApplication+Analyics.m in Sources */,
+				5FDFCF20260C5FC4007BAF9E /* YLCrashMonitor.m in Sources */,
+				5FDFCF32260C5FC4007BAF9E /* YLBacktraceLogger.m in Sources */,
+				5FDFCF31260C5FC4007BAF9E /* YLJsonConverTool.m in Sources */,
+				5FDFCF47260C5FC5007BAF9E /* UIViewController+Analyics.m in Sources */,
+				5FDFCF25260C5FC4007BAF9E /* YLLogger.m in Sources */,
+				5FDFCF37260C5FC5007BAF9E /* YLSensorsAnalyicsCommonTool.m in Sources */,
+				5FDFCF29260C5FC4007BAF9E /* YLDispatchAsync.m in Sources */,
+				5FDFCF27260C5FC4007BAF9E /* YLAnalyicsConstants.m in Sources */,
+				5FDFCF2D260C5FC4007BAF9E /* YLSensorsAnalyicsTool.m in Sources */,
+				5FDFCF23260C5FC4007BAF9E /* YLAppFluencyMonitor.mm in Sources */,
+				5FDFCF52260C5FC5007BAF9E /* NSObject+YLSwizzler.m in Sources */,
+				5FDFCF4B260C5FC5007BAF9E /* UICollectionView+Analyics.m in Sources */,
+				5FDFCF40260C5FC5007BAF9E /* Aspects.m in Sources */,
+				5FDFCF45260C5FC5007BAF9E /* WKWebView+Analytics.m in Sources */,
+				5FDFCF1F260C5FC4007BAF9E /* UIView+YLTool.m in Sources */,
+				5FDFCF2A260C5FC4007BAF9E /* YLDispatchOperation.m in Sources */,
+				5FDFCF26260C5FC4007BAF9E /* YLSensorsAnalyicsSDK.m in Sources */,
+				5FDFCF3B260C5FC5007BAF9E /* YLReachability.m in Sources */,
+				5FDFCF41260C5FC5007BAF9E /* YLSystemParam.m in Sources */,
+				5FDFCF4C260C5FC5007BAF9E /* UIView+Analyics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5FDFCE73260C5AE3007BAF9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FDFCE74260C5AE3007BAF9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FDFCE76260C5AE3007BAF9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VPD3L4VK2U;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YLAnalyticsSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.YLAnalyticsSDK";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FDFCE77260C5AE3007BAF9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VPD3L4VK2U;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YLAnalyticsSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.YLAnalyticsSDK";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FDFCE67260C5AE3007BAF9E /* Build configuration list for PBXProject "YLAnalyticsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDFCE73260C5AE3007BAF9E /* Debug */,
+				5FDFCE74260C5AE3007BAF9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FDFCE75260C5AE3007BAF9E /* Build configuration list for PBXNativeTarget "YLAnalyticsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDFCE76260C5AE3007BAF9E /* Debug */,
+				5FDFCE77260C5AE3007BAF9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FDFCE64260C5AE3007BAF9E /* Project object */;
+}
